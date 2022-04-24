@@ -1,4 +1,4 @@
-## aio-eth
+## aio-eth - Asynchronous JSON-RPC client for Ethereum
 A simple python library that can be used to run large Web3 queries on [Ethereum blockchain](https://ethereum.org/en/) concurrently as per [Ethereum JSON-RPC specification](https://ethereum.org/en/developers/docs/apis/json-rpc/).
 
 The library provides a bare minimal framework for expressing raw JSON-RPC queries as described in the Ethereum Specification and execute them together either concurrently (off-chain on the client side) or together as a batch (JSON-RPC batch specification on-chain). This method greatly reduces the time required to run large queries sequentially and thus can be used for use-cases where we need to index large number of transactions happening on ethereum blockchain in a local database for faster Web2 queries.
